@@ -49,6 +49,11 @@ export default function Home() {
             CADASTRAR LEMBRANÇA
           </a>
         </div>
+
+        {/* Copyright */}
+        <div className="text-sm leading-relaxed text-gray-200">
+          Feito por Matheus Dário na NLW 🚀
+        </div>
       </div>
 
       {/* Right */}
