@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import rocketLogo from '../assets/rocket-logo.svg'
+import Link from 'next/link'
 
 export function Hero() {
   return (
@@ -16,12 +17,12 @@ export function Hero() {
         </p>
       </div>
 
-      <a
+      <Link
         className="inline-block rounded-full bg-purple-400 px-5 py-3 font-alt text-sm uppercase leading-none text-black transition hover:bg-purple-500"
-        href=""
+        href="/memories/new"
       >
         CADASTRAR LEMBRANÇA
-      </a>
+      </Link>
     </div>
   )
 }
